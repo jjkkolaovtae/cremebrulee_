@@ -1,0 +1,34 @@
+*{
+	box-sizing: border-box;
+}
+
+.navbar, .footer{
+	height: 10vh;
+	border: 1px solid black;
+}
+
+.main{
+	height: 70vh;
+	border: 1px solid black;
+}
+
+.row1, .row2{
+	display: flex; 
+    /*you can use float*/
+	justify-content: space-around;
+}
+.child{
+	border: 1px solid mediumpurple;
+	height: 30vh;
+	width: 40vw;
+}
+.chwild{
+	width: 25vw;
+}
+
+span#webkit{
+	font-size: 4em;
+	background-image: url(aurapic.jpg);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}

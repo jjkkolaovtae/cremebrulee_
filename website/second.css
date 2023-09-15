@@ -1,0 +1,243 @@
+nav#mynav{
+            display: block;
+            overflow: hidden;
+}
+
+nav#mynav ul li{
+        list-style: none;
+        font-family: 'Pacifico', cursive;
+        display: inline-block;
+/*        padding-top: 26px;*/
+}
+
+li a{
+      text-decoration: none;
+      float: left;
+      padding: 15px 15px;
+      color: #FDE2F3;
+}
+
+li a:hover{
+            background: #E4E4D0;
+            color: #917FB3;
+}
+
+a:visited{
+     color: #E5BEEC;
+}
+
+span#navkit{
+    font-size: 4em;
+    background-clip: text;
+    float: left;
+    color: #FDE2F3;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-right: 20px;
+}
+
+/*.navbar, .footer{
+    height: 10vh;
+    border: 1px solid #A8DF8E;
+}
+.footer{
+    height: 28vh;
+    background-color: #A8DF8E;
+}*/
+body{
+    height: 1000px;
+}
+.card, .new{
+    border: 1px solid tone;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.font, .face{
+    padding: 10px;
+    height: 270px;
+    width: 270px;
+    border-radius: 300px;
+    border: 1px solid none;
+    margin: 30px;
+    background-color: #917FB3;
+}
+.info{
+    text-align: center;
+    color: #FDE2F3;
+}
+
+.info h2{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+/*about text and para*/
+h1, p{
+    text-align: center;
+    padding: 10px;
+    color: #FDE2F3;
+}
+h4{
+    color: #FDE2F3;
+    padding-left: 6px;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid none;
+    background-color: #917FB3;
+    padding-bottom: 10px;
+}
+body{
+    background: #a68aed;
+}
+
+.hi{
+    font-size: 45px;
+}
+
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 9%;
+  width: 76vw;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #917FB3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #2A2F4F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer section*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h3{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #FDE2F3;
+/*  font-weight: 1000;*/
+}
+h5{
+    color: #FDE2F3;
+}
+.icons, .fa{
+    color: black;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}

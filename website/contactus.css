@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../pages/img/purple.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav#mynav{
+        display: block;
+        overflow: hidden;
+}
+
+nav#mynav ul li{
+        list-style: none;
+        font-family: 'Pacifico', cursive;
+        display: inline-block;
+        padding-top: 26px;
+/*        padding: 6px 6px;*/
+/*        position: relative;*/
+}
+
+li a{
+      text-decoration: none;
+      float: left;
+      padding: 15px 15px;
+      color: #FDE2F3;
+}
+
+li a:hover{
+      background: #E4E4D0;
+      color: #917FB3;
+}
+
+a:visited{
+    color: #E5BEEC;
+}
+
+span#navkit{
+    font-size: 4em;
+    background-clip: text;
+    float: left;
+    color: #FDE2F3;
+    padding-left: 10px;
+	padding-top: 7px;
+	padding-right: 20px;
+}
+body{
+    background: #a68aed;
+}
+.text{
+    width: 90%;
+    color: #FDE2F3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text h1{
+    font-size: 60px;
+}
+.text p{
+    margin: 10px 40px;
+    font-size: 16px;
+    color: #FDE2F3;
+}
+
+.text h1{
+    margin-bottom: 10px;
+}
+
+.second{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    color: #FDE2F3;
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #FDE2F3;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+}
+.row1, .row2, .row3{
+    display: flex; 
+    justify-content: space-around;
+}
+.child{
+    border: 1px solid #A8DF8E;
+    height: 33vh;
+    width: 100vw;
+}
+.chwild, .chwild1{
+    width: 40vw;
+    margin: 20px;
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.rd{
+    color: #FDE2F3;
+    display: flex;
+    justify-content: left;
+}
+.card{
+    background: #917FB3;
+/*    height: 270px;*/
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-img{
+    height: 170px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image: url("../pages/img/pimple1.jpg")
+}
+.car-2{
+    background-image: url("../pages/img/acne1.avif")
+}
+.car-3{
+    background-image: url("../pages/img/face.jpg")
+}
+.car-4{
+    background-image: url("../pages/img/do.webp")
+}
+.car-5{
+    background-image: url("../pages/img/dont.jpg")
+}
+.car-6{
+    background-image: url("../pages/img/rem.webp")
+}
+.card h2{
+    padding: 5px;
+}
+.card, .rd{
+    padding: 5px;
+}
+.card h2{
+    color: #FDE2F3;
+}
+.card a{
+/*    background-color: orange;*/
+    color: white;
+/*    padding: 15px 20px;*/
+    display: block;
+    text-align: center;
+/*    margin: 20px 50px;*/
+}
+.card:hover{
+    background-color: #917FB3;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.a2{
+    text-align: center;
+    color: #917FB3;
+    background-color: #E5BEEC;
+    border: 1px solid none;
+    padding: 15px 20px;
+    display: block;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+
+}
+.column img{
+    margin-top: 50px;
+    border-radius: 20%;
+}
+.column h4{
+    margin-top: 5px;
+    color: #FDE2F3;
+    font-size: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*footer section*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h3{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #FDE2F3;
+/*  font-weight: 1000;*/
+}
+h5{
+    color: #FDE2F3;
+}
+.icons, .fa{
+    color: black;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}

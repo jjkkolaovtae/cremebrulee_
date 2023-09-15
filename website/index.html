@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+
+	<link rel="icon" type="image/icon" href="pages/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+	<section class="home">
+	   <nav id="mynav">
+         <span id="navkit">Creme Brulee</span>
+         <ul>
+	      <li><a href="index.html">Home</a></li>
+	      <li><a href="acneandpimples.html">Acne & Pimple</a></li>
+	      <li><a href="causes.html">Facts</a></li>
+	      <li><a href="do.html">Dos</a></li>
+	      <li><a href="donts.html">Don'ts</a></li>
+	      <li><a href="recommendation.html">Recommandations</a></li>
+	      <li><a href="contactus.html">Contact Us</a></li>
+        </ul>  
+     </nav>	
+
+     <div class="text">
+    	<h1>What Is Acne & Pimple?</h1>
+    	<p> Acne typically causes pimples to develop,<br> most commonly on your face, chest, shoulders and upper back. Pimples are small growths on the surface of your skin.</p>
+    	<a href="acneandpimples.html" class="ak">Visit Us To Learn More</a>	
+    </div>
+	</section>
+
+	<section class="second">
+		<h1>Information We Offer</h1>
+		<p>Things You Should Know About</p>
+
+	<section class="container">
+       <div class="card">
+        <div class="card-img car-1"></div>
+        <h2>Acne</h2>
+        <p class="rd">Acne is a common skin condition that happens when hair follicles under the skin become clogged.</p>
+        <div class="a2">
+          <a href="acneandpimples.html">READ MORE</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-img car-2"></div>
+        <h2>Facts</h2>
+        <p class="rd">Pimples that contain pus are known as pustules.</p>
+        <div class="a2">
+          <a href="causes.html">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img car-3"></div>
+        <h2>Causes</h2>
+        <p class="rd">Skin gets irritated by things it comes in contact with and pimples develop.</p>
+        <div class="a2">
+          <a href="causes.html">READ MORE</a>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="container">
+       <div class="card">
+        <div class="card-img car-4"></div>
+        <h2>Dos</h2>
+        <p class="rd">Stay hydrated, manage your stress, etc...</p>
+        <div class="a2">
+          <a href="do.html">READ MORE</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-img car-5"></div>
+        <h2>Don'ts</h2>
+        <p class="rd">Don't use hot water, don't pop or touch the acne, etc...</p>
+        <div class="a2">
+          <a href="donts.html">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img car-6"></div>
+        <h2>Recommendation</h2>
+        <p class="rd">Cleansers, Toners, Sunscreens, etc...</p>
+        <div class="a2">
+          <a href="recommendation.html">READ MORE</a>
+        </div>
+      </div>
+      
+    </section>
+	</section>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../pages/img/clean.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../pages/img/lemon.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../pages/img/smooth.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+	<!-- feedbacks from customers -->
+	<section class="feedback">
+		<h1>What Our Visitors Say</h1>
+		<p>Some reviews and feedbacks from our visitors</p>
+
+		<div class="row1">
+		  <div class="first">
+		  	<img src="../pages/img/icon.jpg">
+		  	<div>
+		  		<p>Overall, in my book, this website really helped me a lot since I have been having pimples all over my face for quiet a while now and I had no idea what kinds of products i shall you or what they are for. I also wanted to know the causes and don'ts for pimples and this really helped me a lot of so I highly recommend it and the theme is nice too!</p>
+		  		<h4>ke1om.0p <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		  		<i class='fas fa-star'></i>
+		  			<i class='fas fa-star'></i>
+		  			<i class='fas fa-star'></i>
+		  			<i class='fas fa-star'></i></h4>
+		  	</div>
+		  </div>		
+
+		  <div class="first">
+		  	<img src="../pages/img/icon.jpg">
+		  	<div>
+		  		<p>Currently, I have been having small pimples throughout my face and I had no idea why, I have tried out many many products and spot treatments but they didn't really help me sort out my pimples. However, as soon as I found out about this website, I thought it wouldn't be useful but it did! The products that this website recommends really helped my skin to have less pimples and now my skin is as good as new!</p>
+		  		<h4>jjkk.awe3 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		  		<i class='fas fa-star'></i>
+		  			<i class='fas fa-star'></i>
+		  			<i class='fas fa-star'></i>
+		  			<i class='fas fa-star'></i>
+		  		</h4>
+		  		
+		  	</div>
+		  </div>
+
+	</section>
+
+	<!-- our teams section	   -->
+	<!-- <section class="team">
+		<h1>Our team</h1>
+	  <div class="teams">
+			<div class="team1">
+			<img src="../pages/mayphu.png">
+			<h2>May Phu Wathone Wai</h2>
+			<p>Creator, Editor</p>
+		</div>
+		<div class="team2">
+			<img src="../pages/maythansin.png">
+			<h2>May Thansin Han</h2>
+			<p>Creator, Editor</p>
+		</div>
+	  </div>
+	</section> -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section -->
+	<section class="footer">
+		<h3>About Us</h3>
+		<p><i class="fa-solid fa-envelope" style="color: #fde2f3;"></i>    Email- cremebrulee1@gmail.com<br><i class="fa-solid fa-phone" style="color: #fde2f3;"></i>   Phone number- 099876543210</p>
+		<div class="icons">
+			<i class="fa-brands fa-facebook" style="color: #fde2f3;"></i>
+			<i class="fa-brands fa-instagram" style="color: #fde2f3;"></i>
+			<i class="fa-brands fa-twitter" style="color: #fde2f3;"></i>
+			<i class="fa-brands fa-linkedin" style="color: #fde2f3;"></i>
+		</div>
+		<h5>&copy;  2023 Creme Brulee. All rights reserved.</h5>
+	</section>
+
+
+</body>
+</html>

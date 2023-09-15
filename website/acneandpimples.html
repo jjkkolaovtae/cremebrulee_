@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acne and Pimples</title>
+  <link rel="stylesheet" type="text/css" href="second.css">
+
+  <link rel="icon" type="image/icon" href="pages/img/favicon.ico">
+</head>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+<nav id="mynav">
+         <span id="navkit">Creme Brulee</span>
+         <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="acneandpimples.html">Acne & Pimple</a></li>
+        <li><a href="causes.html">Facts</a></li>
+        <li><a href="causes.html">Causes</a></li>
+        <li><a href="do.html">Dos</a></li>
+        <li><a href="donts.html">Don'ts</a></li>
+        <li><a href="recommendation.html">Recommandations</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        </ul>  
+     </nav> 
+
+
+<div class="text">
+  <h1>What is acne and pimple?</h1>
+    <h4>The clearest way to distinguish between acne and pimples is to understand that pimples are a symptom of a condition, whereas acne is the condition itself. <br>Someone who has acne-prone skin will experience pimples as a part of their condition, however not everyone who gets the occasional pimple has acne-prone skin.</h4>
+</div>
+
+<h1 class="hi">Types of acne</h1>
+
+  <div class="card">
+    <div class="font">
+      <div class="info">
+        <h3>Papules</h3>
+        <p>Acne papules are small, inflamed bumps caused by excess oil in your skin, bacteria, hormones and some medications. They don’t have a pus-filled tip like other forms of acne. Treatments include over-the-counter and prescription medications.</p>
+      </div>
+    </div>
+
+    <div class="font">
+      <div class="info">
+        <h3>Blackheads</h3>
+        <p>Blackheads are a very common skin condition that mostly affects your face, neck, back and chest. There are a variety of causes, including too much oil on your skin and hair follicle irritation. Blackheads commonly affect adolescents.</p>
+      </div>
+    </div>
+
+    <div class="font">
+      <div class="info">
+        <h3>Whiteheads</h3>
+        <p>Whiteheads are a very common skin condition that mostly affects your face, neck, back and chest. There are a variety of causes, including too much oil on your skin and hair follicle irritation. Whiteheads commonly affect adolescents.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="font">
+      <div class="info">
+        <h3>Nodules</h3>
+        <p>Nodules can develop just below the skin. They can also develop in deeper skin tissues or internal organs. Dermatologists use nodules as a general term to describe any lump underneath the skin that's at least 1 centimeter in size.</p>
+      </div>
+    </div>
+
+    <div class="font">
+      <div class="info">
+        <h3>Pustules</h3>
+        <p>Pustules are small, inflamed, pus-filled, blister-like sores (lesions) on the skin surface. The face is the most common location of acne. Here, there are 4 to 6 millimeter red (erythematous) pustules, some with bridging scars and fistulous tract formation (connecting passages).</p>
+      </div>
+    </div>
+
+    <div class="font">
+      <div class="info">
+        <h3>Cystic acne</h3>
+        <p>Cystic acne is a type of inflammatory acne that causes painful, pus-filled pimples to form deep under the skin. Acne occurs when oil and dead skin cells clog skin pores. With cystic acne, bacteria also gets into the pores.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="slideshow-container">
+
+<!-- <div class="mySlides fade">
+  <img src="../pages/img/papules.webp" style="width:100%">
+</div> -->
+
+<div class="mySlides fade">
+  <img src="../pages/img/blackheads.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../pages/img/whiteheads1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../pages/img/nodular.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../pages/img/papules1.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../pages/img/cystic_acne.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="footer">
+    <h3>About Us</h3>
+    <p><i class="fa-solid fa-envelope" style="color: #fde2f3;"></i>    Email- cremebrulee1@gmail.com<br><i class="fa-solid fa-phone" style="color: #fde2f3;"></i>   Phone number- 099876543210</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook" style="color: #fde2f3;"></i>
+      <i class="fa-brands fa-instagram" style="color: #fde2f3;"></i>
+      <i class="fa-brands fa-twitter" style="color: #fde2f3;"></i>
+      <i class="fa-brands fa-linkedin" style="color: #fde2f3;"></i>
+    </div>
+    <h5>&copy;  2023 Creme Brulee. All rights reserved.</h5>
+  </section>
+
+</body>
+</html>
